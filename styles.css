@@ -1,0 +1,140 @@
+.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body {
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    color: #ffffff;
+    background-color: #a48ba7;
+    border-radius: 30px;
+    margin: 5rem;
+    padding: 1rem;
+}
+.head{
+    font-size: 1.5rem;
+    text-align: center;
+    
+    background-color: #a48ba7;
+    border-radius: 30px;
+}
+
+.header {
+    display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 1rem;
+}
+img{
+    display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 500px;
+       height: 500px;
+       border: #ffffff;
+       border-radius: 5%;
+
+}
+/* flexbox */
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+      
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    gap: 20px; /* Adjust spacing between items */
+    list-style: none;
+    padding: 0;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: 2px #a0c51b;
+    padding: 10px; /* Adjust padding for spacing */
+    display: inline-block; /* Ensures it wraps around the content */
+    
+}
+
+nav a {
+    text-decoration: none;
+    background-color: rgb(50, 37, 75);
+    border-radius: 5px;
+    color: #ddcfcf;
+    .navbar a {
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+}
+nav a:hover {
+    background-color: var(--primary-color);
+    color: rgb(247, 0, 255);
+}
+
+.footer {
+    background-color: var(--card-bg);
+    color: var(--text-secondary);
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    background-color: #a48ba7;
+    color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #a0c51b;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+    body {
+        
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
+    img{
+        display: none;
+    }
+
+    .footer p{
+        word-wrap: break-word;
+    }
+} 
+
+
+
+
+

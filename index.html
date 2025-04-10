@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CSS Layouts and Responsive Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dark-theme">
+    <div class="page-wrapper">
+        <header class="header">
+            <img src="images/Leonardo_Phoenix_10_CSS_Flexbox_Mastering_Responsive_LayoutsF_1.jpg" alt="Logo" class="logo">
+            <h1 class="h1">CSS Layouts and Responsive Design</h1>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+        </header>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html" class="active">Introduction</a></li>
+                <li><a href="Flexbox.html">Flexbox</a></li>
+                <li><a href="CSS Grid.html">CSS Grid</a></li>
+                <li><a href="Media Queries.html">Media Queries</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <section class="hero">
+                <div class="hero-content">
+                    <h2>Master Modern CSS</h2>
+                    <p>Learn how to create beautiful, responsive layouts using modern CSS techniques</p>
+                </div>
+                <div class="hero-image">
+                    <picture>
+                        <source media="(max-width: 700px)" srcset="images/mobile-hero.jpg">
+                        <source media="(min-width: 701px)" srcset="images/desktop-hero.jpg">
+                        <img src="images/desktop-hero.jpg" alt="CSS Layout Illustration" width="500" height="300">
+                    </picture>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="content-grid">
+                    <article class="feature-card">
+                        <h3>Flexbox Layout</h3>
+                        <p>Master one-dimensional layouts with Flexbox for perfect alignment and spacing</p>
+                        <div class="card-footer">
+                            <span class="tag">Core Concept</span>
+                        </div>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>CSS Grid</h3>
+                        <p>Create complex two-dimensional layouts with CSS Grid's powerful features</p>
+                        <div class="card-footer">
+                            <span class="tag">Advanced</span>
+                        </div>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>Responsive Design</h3>
+                        <p>Build layouts that adapt beautifully to any screen size</p>
+                        <div class="card-footer">
+                            <span class="tag">Essential</span>
+                        </div>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>Media Queries</h3>
+                        <p>Control your layout with powerful media queries and breakpoints</p>
+                        <div class="card-footer">
+                            <span class="tag">Advanced</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 CSS Layouts and Responsive Design Course</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
