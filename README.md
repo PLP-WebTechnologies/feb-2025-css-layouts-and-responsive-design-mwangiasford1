@@ -20,6 +20,10 @@ Ensure proper alignment and spacing.
 # Tasks
 
 - Apply Flexbox or Grid for layout.
+
+
+
+
 - Make the page responsive.
 - Test across different screen sizes.
 

@@ -1,86 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>CSS Layouts and Responsive Design</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A simple index page for a web application.">
+        <TITLE>RESPONSIVE DESIGN</TITLE>
+        <meta name="author" content="asford mwangi">
+        <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            <header>
+                <h1>RESPONSIVE DESIGN AND CSS</h1>
+                <nav class="navbar">
+                    <ul>
+                        <li class="items"><a href="index.html">Home</a></li>
+                        <li class="items"><a href="FLEXBOX.html">Flex box</a></li>
+                        <li class="items"><a href="MEDIA QUERY.html">Media query</a></li>
+                        <li class="items"><a href="CSS STYLE.html">CSS style</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-<body class="dark-theme">
-    <div class="page-wrapper">
-        <header class="header">
-            <img src="images/Leonardo_Phoenix_10_CSS_Flexbox_Mastering_Responsive_LayoutsF_1.jpg" alt="Logo" class="logo">
-            <h1 class="h1">CSS Layouts and Responsive Design</h1>
-            <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
-        </header>
+            <main>
+                <h2>Welcome to the Responsive Design Page</h2>
+                <img src="./images/Leonardo_Phoenix_10_CSS_Flexbox_Mastering_Responsive_LayoutsF_1.jpg" class="responsive-image">
+              
+                <p>Explore the links above to learn more about responsive design and CSS.</p>
+                <p>Responsive design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes.</p>
 
-        <nav class="nav">
-            <ul>
-                <li><a href="index.html" class="active">Introduction</a></li>
-                <li><a href="Flexbox.html">Flexbox</a></li>
-                <li><a href="CSS Grid.html">CSS Grid</a></li>
-                <li><a href="Media Queries.html">Media Queries</a></li>
-            </ul>
-        </nav>
+                <div class="pcontainers">
+               <p class="items1"> Flexbox (Flexible Box Layout) is a powerful CSS layout model that makes it easier to design flexible and responsive
+                layouts. It allows you to control the alignment, direction, and spacing of elements efficiently.
+                
+                Key Concepts:
+                Flex Container: The parent element that holds flex items. You enable flexbox by setting display: flex; on the container.
+                
+                Flex Items: The child elements inside the flex container that are affected by flexbox properties.
+                
+                Main Axis & Cross Axis: Flexbox works in one dimension at a time—either horizontally (row) or vertically (column).
+                
+                Flex Properties:
+                
+                .</P>
+                <p class="items1">Responsive design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes.
+                    Today
+                    how to resorve an overflow
+                    Overflow issues can arise in different contexts—are you referring to a CSS layout overflow, a database overflow, or
+                    something else entirely?
+                    
+                    If it's CSS overflow, you can control how content behaves when it exceeds its container using the overflow property:
+                    
+                    visible: Content spills outside the container.
+                    
+                    hidden: Content is clipped and not visible.
+                    
+                    scroll: Adds scrollbars to navigate excess content.
+                    
+                    auto: Scrollbars appear only when necessary.
+                    
+                    You can check out more details on CSS overflow handling here.
+                    
+                   .</p>
 
-        <main class="main-content">
-            <section class="hero">
-                <div class="hero-content">
-                    <h2>Master Modern CSS</h2>
-                    <p>Learn how to create beautiful, responsive layouts using modern CSS techniques</p>
-                </div>
-                <div class="hero-image">
-                    <picture>
-                        <source media="(max-width: 700px)" srcset="images/mobile-hero.jpg">
-                        <source media="(min-width: 701px)" srcset="images/desktop-hero.jpg">
-                        <img src="images/desktop-hero.jpg" alt="CSS Layout Illustration" width="500" height="300">
-                    </picture>
-                </div>
-            </section>
 
-            <section class="features">
-                <div class="content-grid">
-                    <article class="feature-card">
-                        <h3>Flexbox Layout</h3>
-                        <p>Master one-dimensional layouts with Flexbox for perfect alignment and spacing</p>
-                        <div class="card-footer">
-                            <span class="tag">Core Concept</span>
-                        </div>
-                    </article>
+            </div>
 
-                    <article class="feature-card">
-                        <h3>CSS Grid</h3>
-                        <p>Create complex two-dimensional layouts with CSS Grid's powerful features</p>
-                        <div class="card-footer">
-                            <span class="tag">Advanced</span>
-                        </div>
-                    </article>
+             
+            </main>   
 
-                    <article class="feature-card">
-                        <h3>Responsive Design</h3>
-                        <p>Build layouts that adapt beautifully to any screen size</p>
-                        <div class="card-footer">
-                            <span class="tag">Essential</span>
-                        </div>
-                    </article>
-
-                    <article class="feature-card">
-                        <h3>Media Queries</h3>
-                        <p>Control your layout with powerful media queries and breakpoints</p>
-                        <div class="card-footer">
-                            <span class="tag">Advanced</span>
-                        </div>
-                    </article>
-                </div>
-            </section>
-        </main>
-
+       
         <footer class="footer">
-            <p>&copy; 2025 CSS Layouts and Responsive Design Course</p>
+            <p class="pfooter">&copy; 2025 Responsive Design. All rights reserved.</p>
         </footer>
-    </div>
 
-    <script src="script.js"></script>
-</body>
+        </body>
 </html>
+
+
